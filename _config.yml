@@ -35,8 +35,8 @@ plugins:
 permalink: /:categories/:short_year-:month-:day/:title
 
 sass:
-  sass_dir:_sass
-  style:compressed
+  sass_dir: _sass
+  style: compressed
 
 lsi: true
 theme: jekyll-theme-cayman
