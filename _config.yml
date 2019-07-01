@@ -33,7 +33,16 @@ plugins:
   - jekyll-feed
 
 permalink: /:categories/:short_year-:month-:day/:title
-  
+
+sass:
+  sass_dir:_sass
+  style:compressed
+
+lsi: true
+theme: jekyll-theme-cayman
+permalink: :categories/ :year-:month-:day/:title
+plugins:
+  - jekyll-org
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
