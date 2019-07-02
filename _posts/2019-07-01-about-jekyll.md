@@ -24,16 +24,28 @@ How to change org-mode to Jekyll
 4.  mv conv~mdandstore~.rb conv~mdandstore~
 5.  mv conv~mdandstore~ \~/bin/
 6.  conv~mdandstore~
+    -   org-rubyがエラーで出たら
+
+    <!-- -->
+
+    -   gem install org-ruby
+
 7.  brew upgrade rbenv ruby-build
 8.  brew upgrade ruby-build
-9.  rbenv install 2.6.3
-10. rbenv global 2.6.3
+9.  brew install pandoc
+10. ~posts~ の中にblog内fileが.md形式で作られているかを確認
+11. htpp://localhost:4000/でblogが反映しているかを確認
+    -   rm 2019-07-01-welcome-to-jekyll.markdown してもいいよ
+12. END
+
+### Questions
+
+-   rbenv install 2.6.3
+-   rbenv global 2.6.3
     -   My~help~(2.5.1)やから使えんくなった
     -   my~help~ を
         rbenv(2.6.3)に対応させるには？（my~helpはちゃんと上書きされるのか~？)
-    -   
-
-11. gem install bundler
+-   rm 2019-07-01-welcome-to-jekyll.markdown
 
 シーケンス図(Jekyll Install)
 ----------------------------
