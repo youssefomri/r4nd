@@ -13,10 +13,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: r4nd
-email: y1s2s2f9@gmail.com
+title: r4nd site
+email: y1s2s2f9atgmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-   Final Report
+abotu Final Report
  # Write an awesome description for your new site here. You can edit this
  # line in _config.yml. It will appear in your document head meta (for
  # Google search results) and in your feed.xml site description.
@@ -28,7 +28,7 @@ url: "http://youssefomri.github.io" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-minimal
+theme: jekyll-theme-minima
 plugins:
   - jekyll-feed
 
@@ -39,7 +39,7 @@ sass:
   style: compressed
 
 lsi: true
-theme: jekyll-theme-cayman
+theme: jekyll-theme-minima
 permalink: :categories/:year-:month-:day/:title
 plugins:
   - jekyll-org
