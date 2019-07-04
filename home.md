@@ -1,1 +1,1 @@
-No MacBook No Life
+No  MacBook     No  Life
