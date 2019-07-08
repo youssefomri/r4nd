@@ -5,15 +5,17 @@ baseurl: "/r4nd"
 url: "http://youssefomri.github.io" # the base hostname & protocol for your si
 github_username:  youssefomri
 markdown: kramdown
-theme: jekyll-theme-cayman
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: dark
+#theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
   - jekyll-org
 permalink: /:categories/:short_year-:month-:day/:title
 sass:
 sass_dir: _sass
-style: default
-# style: compressed
+# style: default
+style: compressed
 lsi: true
 
 # exclude:
