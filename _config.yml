@@ -12,7 +12,8 @@ plugins:
 permalink: /:categories/:short_year-:month-:day/:title
 sass:
 sass_dir: _sass
-style: compressed
+style: default
+# style: compressed
 lsi: true
 
 # exclude:
