@@ -1,1 +1,1 @@
-![](img/jekyll.png)
+-   ![](img/jekyll.png)
