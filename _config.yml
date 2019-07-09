@@ -9,15 +9,16 @@ markdown: kramdown
 #minimal_mistakes_skin: dark
 theme: jekyll-theme-cayman
 plugins:
+  - github-pages
   - jekyll-feed
   - jekyll-org
+  
 permalink: /:categories/:short_year-:month-:day/:title
+
 sass:
 sass_dir: _sass
-
-# style: default
 style: compressed
-lsi: true
+#lsi: true
 
 # exclude:
 #   - Gemfile
