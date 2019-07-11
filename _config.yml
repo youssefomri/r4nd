@@ -1,10 +1,11 @@
-title: r4nd site
+title: r4nd
 email: y1s2s2f9@gmail.com
-description: Nishitani-Lab Final Reprot
+description: Final Reprot
 baseurl: "/r4nd"
 url: "http://youssefomri.github.io" # the base hostname & protocol for your si
 github_username:  youssefomri
 markdown: kramdown
+lang: ja-JP
 #theme: minimal-mistakes-jekyll
 #minimal_mistakes_skin: dark
 theme: jekyll-theme-cayman

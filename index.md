@@ -3,8 +3,6 @@ layout: default
 title: Home
 ---
 
-<h1>{{ "Hello World!" | downcase }}</h1>
-
 <h1> Category List </h1>
 
 {% for category in site.categories %}
