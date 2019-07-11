@@ -29,12 +29,13 @@ org-modeからJekyllに変換した際にorg内で記述した画像ファイル
 
 [結果]{.underline}
 
-<file:img/result1.png>
+![](img/png_result.png)
 
 Jekyll(Theme:cayman)でorg-mode編集日時の反映方法
 ------------------------------------------------
 
-**JekyllのDirectory内にblog.mdを作り以下のコードを入力する**
+p \'oshibori\'
+**JekyllのDirectory内にblog.mdを作り以下のコードを入力する** p \'Hi\'
 
 > ``` {.example}
 >    <h1>Latest Posts</h1>
@@ -52,4 +53,4 @@ Jekyll(Theme:cayman)でorg-mode編集日時の反映方法
 
 [結果]{.underline}
 
-<file:img/result2.png>
+![](img/date_result.png)
