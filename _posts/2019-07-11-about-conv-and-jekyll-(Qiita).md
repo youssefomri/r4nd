@@ -14,7 +14,7 @@ org-modeからJekyllに変換した際にorg内で記述した画像ファイル
 -   Jekyll~imgpathはJekyllのディレクトリ内に画像専用ディレクトリを作り~，そこまでのpathとする．
 
 > ``` {.example}
-> img = line.match /\[\[file:(.*)\/(.*)\]\]/\
+> img = line.match /\[\[file:(.*)\/(.*)\]\]/
 > if img != nil
 >   img_path = $target2 + img[2]
 >   puts 'copy_image_name -> '.yellow + img[2].green
@@ -34,8 +34,7 @@ org-modeからJekyllに変換した際にorg内で記述した画像ファイル
 Jekyll(Theme:cayman)でorg-mode編集日時の反映方法
 ------------------------------------------------
 
-p \'oshibori\'
-**JekyllのDirectory内にblog.mdを作り以下のコードを入力する** p \'Hi\'
+**JekyllのDirectory内にblog.mdを作り以下のコードを入力する**
 
 > ``` {.example}
 >    <h1>Latest Posts</h1>
