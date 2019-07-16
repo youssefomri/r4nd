@@ -53,3 +53,12 @@ Jekyll(Theme:cayman)でorg-mode編集日時の反映方法
 [結果]{.underline}
 
 ![](img/date_result.png)
+
+\[追記\]conv後に生成されるtmpファイルと編集で削除した記事をhtmlに反映させない様にする方法
+-----------------------------------------------------------------------------------------
+
+> ``` {.example}
+> FileUtils.rm(Dir.glob('/Users/youssefomri/Final/r4nd/_posts/*'))
+> ```
+
+-   自分のjekyllディレクトリにある~posts内の~.mdファイルを削除する.
