@@ -19,11 +19,11 @@
     -   該当ファイルまでのPathを表示とか
     -   .txt ot .org とかで試そうかな
 
-5.  grepがそれやな
+5.  grepがそれかな
 
 6.  makemd(旧conv~mdandstore~)を改良してorgのunderlineや強調，テーブル，TODO,
     チェックボックスも反映できる様に改良していくのはどうか
 
-7.  ディレクトリのルールとは何か
+    -   pngを移せる様になった感じで改良加えていく.
 
-8.  Rakefileをもらい実際にpdf化してみる -\> 河野
+7.  Rakefileをもらい実際にpdf化してみる(卒検用）
