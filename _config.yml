@@ -19,7 +19,7 @@ permalink: /:categories/:short_year-:month-:day/:title
 sass:
 sass_dir: _sass
 style: compressed
-#lsi: true
+lsi: true
 
 # exclude:
 #   - Gemfile
