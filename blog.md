@@ -8,7 +8,7 @@ title: R4ND BLOG
       <h2><a href="{{ post.url | relative_url }}">
 	  {{ post.date | date: '%Y/%m/%d-%A' }} : {{ post.title }}
       </a></h2>
-      <p>{{ post.excerpt }}</p>
+      <!--<p>{{ post.excerpt }}</p>-->
     </li>
   {% endfor %}
 </ul>
