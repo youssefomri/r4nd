@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Blog
+title: R4ND BLOG
 ---
 <ul>
   {% for post in site.posts %}
