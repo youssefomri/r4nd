@@ -1,1 +1,1 @@
--   ![](img/ornb.png)
+!\[\]({{site.baseurl}}/img/ornb.png)

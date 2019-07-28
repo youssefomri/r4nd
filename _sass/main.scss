@@ -1,13 +1,18 @@
-
-current {
-  color: green;
+btn2 {
+    color: orange;
+    font-size: 50px;
+    boder: 1px;
 }
 
 img {
-  max-width: 100%;
-  border: 1px solid #000000;
+    max-width: 100%;
+    border: 1px solid #000000;
 }
 
 ul {
-  list-style-type: square;
+    list-style-type: square;
+}
+
+li {
+    padding:  2px;
 }
