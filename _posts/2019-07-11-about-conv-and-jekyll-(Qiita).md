@@ -29,8 +29,7 @@ org-modeからJekyllに変換した際にorg内で記述した画像ファイル
 
 [結果]{.underline}
 
-!\[\]({{site.baseurl}}/img/png~result~.png)
-
+![a]({{site.baseurl}}/assets/img/png~result~.png)
 Jekyll(Theme:cayman)でorg-mode編集日時の反映方法
 ------------------------------------------------
 
@@ -52,8 +51,7 @@ Jekyll(Theme:cayman)でorg-mode編集日時の反映方法
 
 [結果]{.underline}
 
-!\[\]({{site.baseurl}}/img/date~result~.png)
-
+![a]({{site.baseurl}}/assets/img/date~result~.png)
 \[追記\]conv後に生成されるtmpファイルと編集で削除した記事をhtmlに反映させない様にする方法
 -----------------------------------------------------------------------------------------
 

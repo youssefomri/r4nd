@@ -1,1 +1,1 @@
-!\[\]({{site.baseurl}}/img/ornb.png)
+![a]({{site.baseurl}}/assets/img/ornb.png)

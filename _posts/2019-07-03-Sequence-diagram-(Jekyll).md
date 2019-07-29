@@ -1,1 +1,1 @@
-!\[\]({{site.baseurl}}/img/jekyll.png)
+![a]({{site.baseurl}}/assets/img/jekyll.png)
