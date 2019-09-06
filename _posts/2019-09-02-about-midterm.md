@@ -33,6 +33,9 @@ IMRADで落とし込んだら？
 
 -   Introduction
     -   紙ではなく自分のパソコン上にメモやノートなどを簡単に残す方法としてorg-modeがある．
+    -   Jekyllを使ってBlog書いてみんなと共有したい．
+    -   org-modeからJekyllへの変換をテスト
+    -   画像と強調はできたが
 -   Methods
     -   TDD
     -   Jekyll
@@ -40,7 +43,6 @@ IMRADで落とし込んだら？
     -   Emacs
     -   Github
 -   Result
-    -   
-
+    -   画像，強調はできたがアンダーライン，テーブルは上手く表示できなかった．
 -   Discussion
     -   
