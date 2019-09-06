@@ -34,8 +34,11 @@ IMRADで落とし込んだら？
 -   Introduction
     -   紙ではなく自分のパソコン上にメモやノートなどを簡単に残す方法としてorg-modeがある．
 -   Methods
-    -   
-
+    -   TDD
+    -   Jekyll
+    -   Org-mode
+    -   Emacs
+    -   Github
 -   Result
     -   
 
