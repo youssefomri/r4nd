@@ -45,8 +45,8 @@ Jekyll(Theme:cayman)でorg-mode編集日時の反映方法
 > </a></h2
 > <p>{{ post.excerpt }}</p>
 > </li>
-> {% endfor %}  
-> </ul> 
+> {% endfor %}
+> </ul>
 > ```
 
 [結果]{.underline}

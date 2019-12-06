@@ -8,7 +8,7 @@ How to remove .md file in ~posts~
 ---------------------------------
 
 > ``` {.example}
-> - Dir.glob(dir) 
+> - Dir.glob(dir)
 >    each do | dirs
 >   if includes?(dirs) == jekyll(title)
 >   rm (dirs) > fileUtiles
