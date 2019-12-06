@@ -52,15 +52,33 @@ setup
 -   コードの折りたたみ **これ重要**
     -   全て折り畳む，展開
 
-    { \"key\": \"バインドしたいキー\", \"command\":
-    \"editor.unfoldAll\", //全て展開 \"when\": \"editorTextFocus &&
-    foldingEnabled\" }, { \"key\": \"バインドしたいキー\", \"command\":
-    \"editor.foldAll\", //全て折り畳む \"when\": \"editorTextFocus &&
-    foldingEnabled\" },
+    ``` {.example}
+    {
+        "key": "バインドしたいキー",
+        "command": "editor.unfoldAll", //全て展開
+        "when": "editorTextFocus && foldingEnabled"
+    },
+    {
+        "key": "バインドしたいキー",
+        "command": "editor.foldAll", //全て折り畳む
+        "when": "editorTextFocus && foldingEnabled"
+    },
+    ```
+
     -   選択している箇所を折り畳む，展開
 
-    { \"key\": \"バインドしたいキー\", \"command\":
-    \"editor.foldRecursively\",　//一部折り畳む \"when\":
-    \"editorTextFocus && foldingEnabled\" }, { \"key\":
-    \"バインドしたいキー\", \"command\": \"editor.unfoldRecursively\",
-    //一部展開 \"when\": \"editorTextFocus && foldingEnabled\" },
+    ``` {.example}
+    {
+        "key": "バインドしたいキー",
+        "command": "editor.foldRecursively",　//一部折り畳む
+        "when": "editorTextFocus && foldingEnabled"
+    },
+    {
+        "key": "バインドしたいキー",
+        "command": "editor.unfoldRecursively", //一部展開
+        "when": "editorTextFocus && foldingEnabled"
+    },
+    ```
+
+-   正直，設定＞キーバインド設定から変更した方が早い．
+    勝手にjsonに書いてくれるし．
