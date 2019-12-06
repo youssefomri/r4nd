@@ -93,8 +93,9 @@ Setup
     -   スクロールバーの有無（エディター内）
         -   \"editor.scrollbar.horizontal\": \"hidden\", //水平
         -   \"editor.scrollbar.vertical\": \"hidden\",　//上下
-    -   ターミナル起動設定 -\"terminal.integrated.cwd\":
-        \"*Users/yourname*\", //起動場所
+    -   ターミナル起動設定
+        -   \"terminal.integrated.cwd\": \"*Users/yourname*\",
+            //起動場所
     -   外観設定（追加用）
         -   \"workbench.colorCustomizations\"{この中に書く} -（例）
             \"statusBar.background\": \"\#000000\", //
@@ -104,8 +105,122 @@ Setup
     -   ファイルエンコード設定
         -   \"files.encoding\": \"utf8\",
 
-追加があれば記述していきます．
+めんどくさがりなあなたのために
+==============================
 
-後はググって下さい.
+私の設定を晒します．
+
+以下をsettings.jsonへコピペするといい感じになります．
+
+**(※) \"terminal.integrated.cwd\": \"*Users/youssefomri*\",**
+
+ここだけ自分のパスにして下さい.
+
+``` {.example}
+
+{
+    "editor.minimap.enabled": false,
+    //"workbench.editor.swipeToNavigate": true,
+    "editor.renderWhitespace": "boundary",
+    "editor.renderIndentGuides": true,
+    "editor.quickSuggestions": true,
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "files.trimTrailingWhitespace": true,
+    "workbench.statusBar.visible": true,
+    "workbench.activityBar.visible": false,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "workbench.editor.enablePreview": false,
+    "workbench.startupEditor": "none",
+    "window.zoomLevel": -1,
+    "terminal.integrated.fontFamily": "Source Code Pro for Powerline",
+    "terminal.integrated.fontSize": 13,
+    "editor.fontSize": 13,
+    "workbench.colorTheme": "One Dark Pro",
+    "editor.cursorStyle": "block",
+    "files.encoding": "utf8",
+    "extensions.autoUpdate": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnType": true,
+    "window.restoreWindows": "one",
+    "editor.renderLineHighlight": "gutter",
+    "workbench.tree.indent": 5,
+    "workbench.tree.renderIndentGuides": "none",
+    "editor.folding": true,
+    "editor.wordWrap": "on",
+    "workbench.editor.tabSizing": "shrink",
+    "workbench.colorCustomizations": //追加項目（外観）
+    {
+        "statusBar.background": "#000000", // ステータスバー背景色
+        "statusBar.foreground": "#8FBE8F", // ステータスバー前景色
+        "statusBar.border": "#8FBE8F", // ステータスバーの境界線
+        "sideBar.background": "#000000", // サイドバーの背景色
+        "sideBar.foreground": "#8FBE8F", // サイドバーの前景色
+        "sideBar.border": "#8FBE8F", // サイドバーの境界線
+        "activityBar.background": "#000000", // アクティビティバーの背景色
+        "activityBar.foreground": "#8FBE8F", // アクティビティバーの前景色
+        "activityBar.border": "#8FBE8F", // アクティビティバーの境界線
+        "editor.background": "#000000", // エディタ背景色
+        "scrollbarSlider.background": "#8FBE8F", // スクロールバーの色
+        "scrollbarSlider.hoverBackground": "#8FBE8F", // 移動中のスクロールバーの色
+        "editorGroupHeader.tabsBackground": "#000000", //"タブの背景色",
+        "tab.activeForeground": "#8FBE8F", //""アクティブなタブの文字色",
+        "tab.border": "#000000",
+        "tab.unfocusedActiveBorder": "#000000",
+        "tab.activeBorder": "#8FBE8F",
+        "titleBar.border": "#8FBE8F",
+        "tab.inactiveBorder": "#8FBE8F",
+        "tab.inactiveBackground": "#000000", //"非アクティブな色の背景色",
+        "tab.activeBackground": "#000000", //"非アクティブな色の背景色",
+        "tab.inactiveForeground": "#888888", //"非アクティブなタブの文字色",
+        "terminal.border": "#8FBE8F",
+        "panel.border": "#8FBE8F",
+        "panelInput.border": "#8FBE8F",
+        "panelTitle.activeBorder": "#8FBE8F",
+        "menu.border": "#8FBE8F",
+        "terminal.foreground": "#8FBE8F",
+        "focusBorder": "#8FBE8F",
+        "window.activeBorder": "#8FBE8F",
+        "window.inactiveBorder": "#8FBE8F",
+        "editorGroup.border": "#8FBE8F",
+        "editorLineNumber.foreground": "#8FBE8F",
+    },
+    "workbench.iconTheme": "vs-minimal",
+    "workbench.panel.defaultLocation": "bottom",
+    "workbench.editor.showTabs": true,
+    "editor.smoothScrolling": true,
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.vertical": "hidden",
+    "terminal.integrated.scrollbar.horizontal": "hidden",
+    "terminal.integrated.scrollbar.vertical": "hidden",
+    "terminal.integrated.experimentalRestore": true,
+    "editor.fastScrollSensitivity": 1,
+    "editor.scrollBeyondLastColumn": 1,
+    "editor.scrollBeyondLastLine": false,
+    "terminal.integrated.fontWeightBold": "bold",
+    "terminal.integrated.cwd": "/Users/youssefomri/",
+    "workbench.list.horizontalScrolling": false,
+    "workbench.list.verticalScrolling": false,
+    "editor.cursorSmoothCaretAnimation": true,
+    "editor.cursorBlinking": "solid",
+    "terminal.integrated.cursorBlinking": false,
+    "editor.formatOnSave": true,
+}
+
+```
+
+下から８行目
+
+(※) \"terminal.integrated.cwd\": \"*Users/youssefomri*\",
+
+ここだけ自分のパスにして下さい.
+
+**変更による障害に対しての責任は一切負いません.**
+
+すいません，ただ言ってみたかっただけです．
+
+追加があれば追記していきます．
+
+他はググって下さい.
 
 以上
